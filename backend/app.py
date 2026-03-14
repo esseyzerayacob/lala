@@ -7,7 +7,7 @@ from flask import Flask, render_template_string, request, jsonify
 
 app = Flask(__name__)
 log = logging.getLogger('werkzeug')
-log.setLevel(logging.ERROR)  # Suppress annoying flask logs
+log.setLevel(logging.ERROR)
 
 
 class TitanEngine:
